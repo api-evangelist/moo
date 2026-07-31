@@ -1,8 +1,26 @@
 aid: moo
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/moo.png
 name: MOO
-description: 'MOO is a company surfaced as a portfolio company of index-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: retail. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  MOO is a London-founded online print and design company that produces premium custom
+  business cards, postcards, flyers, stickers, notebooks, packaging, and branded promotional
+  merchandise for individuals and businesses. Backed by Index Ventures, MOO combines a
+  browser-based design experience with commercial printing, and sells tiered business
+  plans (Business, Advanced, Enterprise) with team management and design services. MOO
+  does not currently publish a public developer API, SDKs, or API documentation; its
+  developer-style subdomains resolve to the main storefront rather than an API surface.
+  This profile is maintained in the API Evangelist network as a company record.
 url: https://raw.githubusercontent.com/api-evangelist/moo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Retail
+- Printing
+- Print On Demand
+- Business Cards
+- Design
+- Stationery
+- Promotional Products
+- E-Commerce
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +49,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://moo.com
+  url: https://www.moo.com/us/
+- type: About
+  url: https://www.moo.com/us/about
+- type: Support
+  url: https://support.moo.com/hc/en-us
+- type: Blog
+  url: https://www.moo.com/blog/
+- type: Pricing
+  url: https://www.moo.com/us/business-printing-services
+- type: PrivacyPolicy
+  url: https://www.moo.com/us/about/privacy-policy
+- type: TermsOfService
+  url: https://www.moo.com/us/about/terms-conditions
+- type: DomainSecurity
+  url: security/moo-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
